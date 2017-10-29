@@ -12,7 +12,6 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:orientation="vertical">
-
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -20,28 +19,24 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:orientation="horizontal">
-
             <Button
-                android:id="@+id/btnMap"
+                android:id="@+id/btnFrance"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Map" />
-
+                android:text="France" />
             <Button
-                android:id="@+id/btnSatelite"
+                android:id="@+id/btnUnited"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Satelite" />
-
+                android:text="United States" />
             <Button
-                android:id="@+id/btnHybrid"
+                android:id="@+id/btnAustralia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Hybrid" />
-
+                android:text="Australia" />
 
         </LinearLayout>
 
